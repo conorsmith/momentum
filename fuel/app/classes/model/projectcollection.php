@@ -1,4 +1,4 @@
-<?
+<?php
 
 class Model_ProjectCollectionException extends Exception {}
 
