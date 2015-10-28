@@ -816,7 +816,7 @@ class Arr
 		{
 			if ( ! is_array($arr))
 			{
-				throw new \InvalidArgumentException(sprintf('Arr::merge() - all arguments must be arrays. Given %s (Value: %s).', gettype($array), $array));
+				throw new \InvalidArgumentException(sprintf('Arr::merge() - all arguments must be arrays. Given %s (Value: %s).', gettype($arr), $arr));
 			}
 
 			foreach ($arr as $k => $v)
