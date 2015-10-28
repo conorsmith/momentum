@@ -1,6 +1,6 @@
 {
     "require": {
-        "monolog/monolog": "~1.5",
+        "monolog/monolog": "~1.17",
     	"fuelphp/upload": "2.0"
     },
     "config": {
