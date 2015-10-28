@@ -9,8 +9,8 @@
 <body>
 <div class="container">
 <?=$header?>
-<?$error = Session::get_flash('error');
-if($error):?>
+<?php $error = Session::get_flash('error'); ?>
+<?php if($error) : ?>
 	<div class="row-fluid">
 		<div class="span12">
 			<div class="alert alert-error">
@@ -19,9 +19,9 @@ if($error):?>
 			</div>
 		</div>
 	</div>
-<?endif;?>
-<?$message = Session::get_flash('message');
-if($message):?>
+<?php endif ?>
+<?php $message = Session::get_flash('message'); ?>
+<?php if($message) : ?>
 	<div class="row-fluid">
 		<div class="span12">
 			<div class="alert alert-success">
@@ -30,7 +30,7 @@ if($message):?>
 			</div>
 		</div>
 	</div>
-<?endif;?>
+<?php endif ?>
 <?=$body?>
 <?=$footer?>
 </div>
