@@ -20,7 +20,7 @@ class Controller_Project extends BaseController_Loggedin
 
 	public function action_add()
 	{
-		$this->template->body = View::forge('project/add');
+		$this->template->body = View::forge('project/add', array());
 	}
 
 	public function action_add_post()
